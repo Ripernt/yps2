@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <link type="text/css" href="CSS/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="JS/validacion.js"></script>
+</head>
+ 
+<body>
+    <div id="envoltura">
+        <div id="contenedor">
+ 
+            <div id="cabecera" >
+                <img src="Imagenes/YPS.jpg" id="logo">
+            </div>
+ 
+            <div id="cuerpo">
+                <form id="form-login" action="GuardarUsuario" method="post" autocomplete="off">
+                    <p><label >Nombre:</label></p>
+                        <input name="nombre" type="text" id="nombre" placeholder="Nombre" autofocus="" required="" maxlength="30" onkeypress="return soloLetras(event)">
+                        
+                    <p><label >Apellido/s:</label></p>
+                        <input name="apellido" type="text" id="apellido" placeholder="Apellido/s" autofocus="" required="" maxlength="30" onkeypress="return soloLetras(event)">
+                    
+                    <p><label >Correo:</label></p>
+                        <input name="correo" type="email" id="correo" placeholder="Ingresa Correo" autofocus="" required="" maxlength="30">
+ 
+                    <p><label>Contraseña:</label></p>
+                    <input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa Contraseña" required="" minlength="6" maxlength="30">
+ 
+                    <p id="bot"><input type="submit" id="submit" name="submit" value="Registrarse" class="boton"></p>
+                </form>
+            </div>
+ 
+            <div id="pie">Inicia Sesi&oacute;n o Reg&iacute;strate</div>
+        </div>
+    </div>
+</body>
+ 
+</html>

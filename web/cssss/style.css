@@ -1,0 +1,68 @@
+#envoltura{
+    position:absolute;
+    left:50%;
+    top:50%;
+    padding: 2rem;
+    margin-left:-212px;
+    margin-top: -210px;
+    width: 425px;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    background-color: white;
+}
+
+body{
+  background-size: 100%;
+}
+
+#im{
+left: 50%;
+}
+
+#cam:invalid{
+  border: 1px solid red;
+  background-color: rgba(149, 20, 20, 0.2);
+}
+#cam:valid{
+  border: 1px solid green;
+  background-color:rgba(20, 136, 21, 0.30);
+}
+#envo{
+  box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+  -webkit-border-radius:5px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  border-right: 0px;
+  border-left: 0px;
+  background-color: white;
+  padding: 2rem;
+  width: 50%;
+  left:0;
+}
+#hi{
+  top: 50px;
+  box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+  -webkit-border-radius:5px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  background-color: white;
+  padding: 0.5rem;
+  width: 100%;
+}
+#in{
+  background-color: rgba(255, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+}
+#footer{
+  top: 50px;
+  box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+  -webkit-border-radius:5px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  background-color: white;
+  padding: 0.5rem;
+  width: 100%;
+}
+

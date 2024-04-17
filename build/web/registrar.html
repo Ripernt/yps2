@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    shrink-to-fit">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="csss/style.css">
+    <script type="text/javascript" src="JS/validacion.js"></script>
+    <title>Registrarse</title>
+  </head>
+  <body background="img/fondoindex.jpg">
+    <div id="envoltura">
+          <form class="" action="GuardarUs" method="post">
+        <h3 id="in" align="center">Registrarse</h3>
+                    <p><label >Nombre:</label></p>
+                        <input name="nombre" type="text" id="nombre" placeholder="Nombre" autofocus="" required="" maxlength="30" onkeypress="return soloLetras(event)" class="form-control">
+                        
+                    <p><label >Apellido/s:</label></p>
+                        <input name="apellido" type="text" id="apellido" placeholder="Apellido/s" autofocus="" required="" maxlength="30" onkeypress="return soloLetras(event)" class="form-control">
+                    
+                    <p><label >Correo:</label></p>
+                        <input name="correo" type="email" id="correo" placeholder="Ingresa Correo" autofocus="" required="" maxlength="30" class="form-control">
+ 
+                    <p><label>Contraseña:</label></p>
+                    <input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa Contraseña" required="" minlength="6" maxlength="30" class="form-control" >
+                    
+                    <br>
+                    
+                    <p id="bot"><input type="submit" id="submit" name="submit" value="Registrarse" class="btn btn-dark btn-lg btn-block" ></p>
+      </form>
+    </div>
+  </body>
+</html>

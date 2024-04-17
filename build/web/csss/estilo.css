@@ -1,0 +1,194 @@
+
+.container-fluid{
+  padding: 5rem;
+}
+
+#horizontal{
+display: inline-block;
+}
+
+#encabezado2{
+  background-color: rgba(255, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+#footer{
+  height: 10%;
+  background-color: rgb(33,37,41);
+  bottom: 0%;
+  color: white;
+  width: 100%;
+}
+
+#YPS{
+  display: inline-block;
+}
+
+#social{
+  width: 30%;
+  margin: 0px;
+}
+#twitter{
+  align: bottom;
+  width: 30%;
+}
+
+#arriba{
+  padding: 10rem;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('Recursos/icomoon.eot?qejjb5');
+  src:  url('Recursos/icomoon.eot?qejjb5#iefix') format('embedded-opentype'),
+    url('Recursos/icomoon.ttf?qejjb5') format('truetype'),
+    url('Recursos/icomoon.woff?qejjb5') format('woff'),
+    url('Recursos/icomoon.svg?qejjb5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home3:before {
+  content: "\1f3e0";
+}
+.icon-office:before {
+  content: "\1f3e2";
+}
+.icon-books:before {
+  content: "\1f4da";
+}
+.icon-cart:before {
+  content: "\1f3ec";
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+header {
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:20px auto;
+	width:100%;
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav > ul {
+	display:table;
+	width:100%;
+	background:rgb(33,37,41);
+	position:relative;
+}
+
+nav > ul li {
+	display:table-cell;
+}
+
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:rgb(33,37,41);
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+
+nav > ul > li > a:hover > span {
+	top:0;
+}
+
+nav ul li a .primero {
+	background:#0e5061;
+}
+
+nav ul li a .segundo {
+	background:#5da5a2;
+}
+
+nav ul li a .tercero {
+	background:#f25724;
+}
+
+nav ul li a .cuarto {
+	background:#174459;
+}
+#imagen{
+  width: 61px;
+}
